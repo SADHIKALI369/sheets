@@ -22,6 +22,26 @@ html {
 .card-img-top{
   width: 200px;
 }
+/* .position{
+  position: relative;
+  bottom: 100px;
+}
+.position_1{
+  position: relative;
+  bottom: 200px;
+}
+.position_2{
+  position: relative;
+  bottom: 300px;
+}
+.position_3{
+  position: relative;
+  bottom: 400px;
+}
+.position_4{
+  position: relative;
+  bottom: 500px;
+} */
 /* media querie for mobile phone */
 @media only screen and (max-width: 768px) {
 
