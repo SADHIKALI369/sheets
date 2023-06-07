@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+.navbar-brand {
+  color: darkorange;
+}
+
+/* media querie for mobile phone */
+@media only screen and (max-width: 768px) {
+
+  [class*="col-"] {
+    width: 100%;
+  }
+
+  .navbar-brand img{
+    width: 60px;
+  }
+  
+}
