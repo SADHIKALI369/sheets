@@ -22,7 +22,6 @@ html {
 .card-img-top{
   width: 200px;
 }
-
 /* media querie for mobile phone */
 @media only screen and (max-width: 768px) {
 
